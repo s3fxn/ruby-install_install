@@ -1,4 +1,4 @@
-# Ruby::InstallInstall
+# ruby-install_install
 
 ruby-install installer
 
