@@ -7,9 +7,9 @@ ruby-install installer
     $ gem install ruby-install_install
 
 ## Usage
-
-$ ruby-install_install 
 ```
+$ ruby-install_install 
+
 Download from https://github.com/postmodern/ruby-install/archive/v0.7.0.tar.gz
 cd /tmp/ruby-install-install/ruby-install-0.7.0 && sudo make install
 [sudo] password for s3fxn: 
@@ -17,16 +17,10 @@ for dir in `find bin share -type d`; do mkdir -p /usr/local/$dir; done
 for file in `find bin share -type f`; do cp $file /usr/local/$file; done
 mkdir -p /usr/local/share/doc/ruby-install-0.7.0
 cp -r *.md *.txt /usr/local/share/doc/ruby-install-0.7.0/
-```
+
 $ ruby-install -V
 ruby-install: 0.7.0
-
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+```
 
 ## Contributing
 
