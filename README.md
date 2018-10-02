@@ -4,24 +4,12 @@ ruby-install installer
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'ruby-install_install'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
     $ gem install ruby-install_install
 
 ## Usage
 
 $ ruby-install_install 
-
+```
 Download from https://github.com/postmodern/ruby-install/archive/v0.7.0.tar.gz
 cd /tmp/ruby-install-install/ruby-install-0.7.0 && sudo make install
 [sudo] password for s3fxn: 
@@ -29,7 +17,7 @@ for dir in `find bin share -type d`; do mkdir -p /usr/local/$dir; done
 for file in `find bin share -type f`; do cp $file /usr/local/$file; done
 mkdir -p /usr/local/share/doc/ruby-install-0.7.0
 cp -r *.md *.txt /usr/local/share/doc/ruby-install-0.7.0/
-
+```
 $ ruby-install -V
 ruby-install: 0.7.0
 
