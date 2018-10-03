@@ -9,10 +9,8 @@ ruby-install installer
 ## Usage
 ```
 $ ruby-install_install 
-
 Download from https://github.com/postmodern/ruby-install/archive/v0.7.0.tar.gz
-cd /tmp/ruby-install-install/ruby-install-0.7.0 && sudo make install
-[sudo] password for s3fxn: 
+cd /tmp/ruby-install_install/ruby-install-0.7.0 && sudo make install && rm -Rf /tmp/ruby-install_install
 for dir in `find bin share -type d`; do mkdir -p /usr/local/$dir; done
 for file in `find bin share -type f`; do cp $file /usr/local/$file; done
 mkdir -p /usr/local/share/doc/ruby-install-0.7.0
