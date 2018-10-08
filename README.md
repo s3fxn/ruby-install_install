@@ -17,7 +17,6 @@ for file in `find bin share -type f`; do cp $file /usr/local/$file; done
 mkdir -p /usr/local/share/doc/ruby-install-0.7.0
 cp -r *.md *.txt /usr/local/share/doc/ruby-install-0.7.0/
 
-
 $ ruby-install -V
 ruby-install: 0.7.0
 ```
