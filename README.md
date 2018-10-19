@@ -22,7 +22,7 @@ ruby-install: 0.7.0
 ```
 ## Example
 
-[centos7_ruby2.5.1.sh](https://gist.github.com/s3fxn/6eaa2d86103f1f336d4691cee0230403)
+[centos7_ruby.sh](https://gist.github.com/s3fxn/6eaa2d86103f1f336d4691cee0230403)
 
 
 ## Contributing
