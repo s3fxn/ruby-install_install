@@ -1,6 +1,6 @@
 # ruby-install_install
 
-ruby-install installer
+[ruby-install](https://github.com/postmodern/ruby-install) installer
 
 ## Installation
 
