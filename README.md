@@ -24,6 +24,8 @@ ruby-install: 0.7.0
 
 [centos7_ruby.sh](https://gist.github.com/s3fxn/6eaa2d86103f1f336d4691cee0230403)
 
+[ubuntu18.04_ruby.sh](https://gist.github.com/s3fxn/08fd0dc5d502b3760f4fc83a15ca44c7)
+
 
 ## Contributing
 
