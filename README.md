@@ -20,7 +20,7 @@ cp -r *.md *.txt /usr/local/share/doc/ruby-install-0.7.0/
 $ ruby-install -V
 ruby-install: 0.7.0
 ```
-## Example
+## Examples
 
 [centos7_ruby.sh](https://gist.github.com/s3fxn/6eaa2d86103f1f336d4691cee0230403)
 
