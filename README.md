@@ -5,6 +5,7 @@
 ## Installation
 
     $ gem install ruby-install_install
+    (you may need to run as root or through sudo.)
 
 ## Usage
 ```
