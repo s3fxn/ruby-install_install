@@ -12,7 +12,7 @@ cmd        = "cd #{src_prefix}/ruby-install-#{version} && sudo make install && r
              "test -f /etc/redhat-release && (rpm --quiet -q bzip2 || sudo yum -y install bzip2)"
 
 puts "Download from #{uri}"
-Minitar.unpack(Zlib::GzipReader.new(open(uri,"rb")), src_prefix)
+Minitar.unpack(Zlib::GzipReader.new(URI.open(uri,"rb")), src_prefix)
 puts cmd
 puts `#{cmd}`
 
