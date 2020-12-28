@@ -4,7 +4,7 @@ require 'open-uri'
 require 'minitar'
 require 'zlib'
 
-default =    open('https://github.com/postmodern/ruby-install/releases').read.match(/v(\d+\.\d+\.\d+)/).to_a[1].to_s
+default =    URI.open('https://github.com/postmodern/ruby-install/releases').read.match(/v(\d+\.\d+\.\d+)/).to_a[1].to_s
 version =    ARGV[0] || default
 uri =        "https://github.com/postmodern/ruby-install/archive/v#{version}.tar.gz"
 src_prefix = '/tmp/ruby-install_install'
